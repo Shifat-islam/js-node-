@@ -456,12 +456,12 @@
 // });
 
 
-checkNumber(num)
+// checkNumber(num)
 
-if(num > 0){
-    console.log("posittive")   
-}else if(num < 0){
-    console.log("Negative")
-}
+// if(num > 0){
+//     console.log("posittive")   
+// }else if(num < 0){
+//     console.log("Negative")
+// }
 
-checkNumber(num)
+// checkNumber(num)

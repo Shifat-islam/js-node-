@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice System</title>
+</head>
+<body>
+
+    <h1>Invoice</h1>
+
+    <p id="customer"></p>
+    <p id="amount"></p>
+    <p id="dueDate"></p>
+    <p id="status"></p>
+
+
+    <script>
+
+        const invoice = {
+            customer: "Shifat",
+            amount: 5000,
+            dueDate: "2026-09-10"
+        };
+
+        const today = new Date();
+        const dueDate = new Date(invoice.dueDate);
+
+        if (today > dueDate) {
+
+          console.log("pay done");
+          
+
+        } else {
+
+            console.log("pay not done");
+
+        }
+
+    </script>
+
+</body>
+</html>
